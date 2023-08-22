@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '29843112'))
-API_HASH = environ.get('API_HASH', '7519cd035add179edec5c84933ab6622')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6694528458:AAFJ69dkjFySo-YqF6U8VSY8cZM-SotE1i0')
+API_ID = int(environ.get('API_ID', '11427887'))
+API_HASH = environ.get('API_HASH', '317ea7bfc3dcbfb2a4aa7c866110074e')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5836040733:AAH4S8AEoSgjqG9iYnAYkFE5xUky9JfwU4A')
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
@@ -31,8 +31,8 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://hillsking1222:kuraman1@kumaran1.d6ahc05.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "kumaran1")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://qtmve:qtmve@cluster0.41lxnpf.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
